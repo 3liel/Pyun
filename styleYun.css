@@ -1,7 +1,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
 }
-
+/*CSS GENERAL ENFOCADO EN EL INDEX*/
 header{
     background-color: #8a8b40f1;
     padding: 20px 0;
@@ -47,8 +47,7 @@ nav a {
 }
 
 nav a:hover{
-    color: #c78c19;
-    text-decoration: underline;
+    background: #585828f1;
 }
 
 .titulo {
@@ -64,11 +63,12 @@ nav a:hover{
     text-align: center;
     width: 940px;
     margin: 40px auto;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
 }
 
 .box p{
     margin: 0 0 1em;
+    font-size: 22px;
 }
 
 .box img {
@@ -86,7 +86,51 @@ footer img {
 }
 
 .Copyright {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 13px;
     margin: 20px;
+}
+
+/*REDES*/
+
+.redes {
+    padding: 1em;
+    margin: 1em;
+    font-size: 22px;
+}
+
+div ul li a {
+    text-decoration: none;
+}
+
+.instagram {
+    color: rgb(206, 63, 170);
+}
+
+.instagram:hover {
+    font-size: 25px;
+    transition: .5s;
+}
+
+.facebook {
+    color: rgb(36, 65, 145);
+}
+
+.facebook:hover {
+    font-size: 25px;
+    transition: .5s;
+}
+
+.twitch {
+    color: rgb(47, 14, 138);
+}
+
+.twitch:hover {
+    font-size: 25px;
+    transition: .5s;
+}
+
+li i:hover {
+    font-size: 1em;
+    transition: .5s;
 }
