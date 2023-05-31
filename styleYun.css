@@ -1,0 +1,88 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+header{
+    background-color: #8a8b40f1;
+    padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 0 0 0;
+}
+
+.logo {
+    width: 8em;
+    padding: 10px 10px;
+}
+
+nav {
+    width: auto;
+    position: inherit;
+    top: 50px;
+    right: 50px;
+}
+
+nav ul {
+    padding: 10px 10px 10px 10px;
+    
+}
+
+nav li{
+    display: inline; 
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 50px;
+    margin: 40px;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3em; /*2 veces mas el tamaño padron de
+                    la fuente del navegador*/
+    margin: 30px 0 1em 1em;
+    clear: left;
+}
+
+.box {
+    padding: 3em 0;
+    text-align: center;
+    width: 940px;
+    margin: 40px auto;
+    background-color: antiquewhite;
+}
+
+.box p{
+    margin: 0 0 1em;
+}
+
+.box img {
+    width: 40em;
+}
+
+footer {
+    text-align: center;
+    background: url(imagenes/footer-background-01.jpg);
+    padding: 40px;
+}
+
+.Copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
