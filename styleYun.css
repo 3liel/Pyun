@@ -10,7 +10,7 @@ header{
 .caja {
     width: 940px;
     position: relative;
-    margin: 0 0 0 0;
+    margin: 0 auto;
 }
 
 .logo {
@@ -20,7 +20,7 @@ header{
 
 nav {
     width: auto;
-    position: inherit;
+    position: absolute;
     top: 50px;
     right: 50px;
 }
@@ -79,6 +79,10 @@ footer {
     text-align: center;
     background: url(imagenes/footer-background-01.jpg);
     padding: 40px;
+}
+
+footer img {
+    width: 6em;
 }
 
 .Copyright {
